@@ -10,7 +10,7 @@ RESTful API for analyzing and storing string properties. Built with Node.js and 
 
 ## Setup Instructions
 1. Ensure Node.js v18+ installed.
-2. Clone the repo: `git clone <your-repo-url> && cd string-analyzer`.
+2. Clone the repo: `git clone [<your-repo-url>](https://github.com/kingsleydaprime/hng-backend-stage-1) && cd hng-backend-stage-1`.
 3. Install dependencies: `npm install`.
 
 Dependencies listed in `package.json`:
@@ -39,12 +39,8 @@ Example tests:
 - Delete: `curl -X DELETE http://localhost:8080/strings/hello%20world`
 
 ## API Documentation
-See inline code comments in `server.js` for full details. Responses match spec formats.
+See inline code comments in `index.js` for full details. Responses match spec formats.
 
-## Deployment
-- Deploy to Railway, Heroku, or AWS (Vercel/Render forbidden).
-- Set `PORT` env var if needed.
-- Example Railway base URL: `https://your-app.railway.app`.
 
 ## Notes
 - Production: Add database (e.g., MongoDB) for persistence.
